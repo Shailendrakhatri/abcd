@@ -1,0 +1,52 @@
+/* layout.css */
+
+/* General styling for the navigation bar */
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  /* Styling the unordered list within the nav */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Styling each list item */
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  /* Styling the links */
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  /* Hover effect for links */
+  nav ul li a:hover {
+    color: #00bcd4;
+  }
+  
+  /* Active link styling (optional) */
+  nav ul li a.active {
+    font-weight: bold;
+    color: #00bcd4;
+  }
+  
+  /* Ensures the outlet content has some spacing from the nav */
+  .outlet-content {
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
